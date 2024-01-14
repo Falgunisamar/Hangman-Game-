@@ -1,2 +1,4 @@
 # Hangman-Game-
 Hangman is a popular guessing game, wherein one player thinks of a word, and the other one tries to guess it by suggesting letters within a limited number of guesses.
+The goal here is to discover the missing words. 
+You can declare a class to create a GUI version of the game. The user attempts to guess the letters in a secret word and loses after a specified number of guesses that are not in the word. The user guesses a letter by clicking a button whose text is that letter. You need to create separate classes to define a listener that will respond to the events that occur when the user clicks any of the buttons. The constructor will create the main panel, and a method should be called any time a new game starts. The main program makes it possible to run this class as an application. The main routine creates a window, sets it to contain a panel of type Hangman, and shows the window in the center of the screen.
